@@ -1,4 +1,5 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = "https://doppelganger-backend-1.onrender.com";
+export default API_BASE_URL;
 
 const getAuthHeaders = () => {
   const token = localStorage.getItem('token');
